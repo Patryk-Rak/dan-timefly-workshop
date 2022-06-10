@@ -21,15 +21,18 @@ from django.conf import settings
 from website.views import (
                             homepage_view,
                             contact_page_view,
-                            services_page_view
+                            services_page_view,
+                            about_page_view
                           )
 from painted_models.views import portfolio_page_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', homepage_view, name="homepage"),
+    path('about/', about_page_view, name="about"),
     path('portfolio/', portfolio_page_view, name="portfolio-page"),
     path('contact/', contact_page_view, name="contact-page"),
+    path('services/', services_page_view, name="services"),
     path('services/', services_page_view, name="services"),
 ]
 

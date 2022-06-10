@@ -16,3 +16,9 @@ def services_page_view(request, *args, **kwargs):
     context = {}
     context['my_name'] = "Dan"
     return render(request, "website/services.html", context)
+
+
+def about_page_view(request, *args, **kwargs):
+    context = {}
+    context['my_name'] = "Dan"
+    return render(request, "website/about.html", context)
