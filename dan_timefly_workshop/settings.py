@@ -17,8 +17,9 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     #My apps
-    'my_work',
+    'painted_models',
     'paints_and_tools',
+    'website',
 
     #premade apps
     'django.contrib.admin',

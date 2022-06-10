@@ -40,15 +40,15 @@
 <body>
 
 	{% include 'snippets/main/navbar.html' %}
-	{% include 'snippets/main/header.html' %}
+
 
 
 	<!-- Body -->
-	<div class="main">
+	<main id="main">
 		{% block content %}
 
 		{% endblock content %}
-	</div>
+	</main><!-- End #main -->
 	<!-- End Body -->
 
 	{% include 'snippets/main/footer.html' %}

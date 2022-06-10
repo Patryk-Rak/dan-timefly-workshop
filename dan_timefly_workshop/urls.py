@@ -18,11 +18,19 @@ from django.urls import path
 from django.conf.urls.static import static
 from django.conf import settings
 
-from my_work.views import my_work_view
+from website.views import (
+                            homepage_view,
+                            contact_page_view,
+                            services_page_view
+                          )
+from painted_models.views import portfolio_page_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', my_work_view, name="my_work_page")
+    path('', homepage_view, name="homepage"),
+    path('portfolio/', portfolio_page_view, name="portfolio-page"),
+    path('contact/', contact_page_view, name="contact-page"),
+    path('services/', services_page_view, name="services"),
 ]
 
 if settings.DEBUG:
