@@ -5,19 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae7a93c-9725-4cf0-9934-7a37d136c6d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/media/website_images/hero_page_background.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/kelly/css/kelly_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/kelly/css/kelly_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/website_images/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dan_timefly_workshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dan_timefly_workshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/painted_models/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/painted_models/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/painted_models/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/kelly/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/portfolio-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/snippets/main/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/snippets/main/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AGREu5uV0YwCi2vTPQrcFNL5hf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,6 +41,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/media/website_images" />
@@ -85,6 +101,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
