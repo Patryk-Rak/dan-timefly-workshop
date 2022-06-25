@@ -7,7 +7,6 @@ import dj_database_url
 #BASE_DIR = Path(__file__).resolve().parent.parent
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-django_heroku.settings(locals())
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config("SECRET_KEY")
@@ -124,6 +123,8 @@ BASE_DIR = "http://127.0.0.1:8000"
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+django_heroku.settings(locals())
 
 prod_db = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(prod_db)
