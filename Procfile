@@ -1,1 +1,1 @@
-web: gunicorn dan-timefly-workshop.wsgi
+web: gunicorn dan_timefly_workshop.wsgi
