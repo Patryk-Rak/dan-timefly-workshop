@@ -1,13 +1,15 @@
 import os.path
-from pathlib import Path
+import django_heroku
+from decouple import config
 
 
 #BASE_DIR = Path(__file__).resolve().parent.parent
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+django_heroku.settings(locals())
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-=+@&f2=s#ys*!%utr71w^o%jkfk5l!e7(s8djw98(n7=st-duh'
+SECRET_KEY = config("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -122,5 +124,3 @@ BASE_DIR = "http://127.0.0.1:8000"
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-import django_heroku
-django_heroku.settings(locals())
