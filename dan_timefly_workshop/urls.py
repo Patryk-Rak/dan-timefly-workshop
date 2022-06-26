@@ -34,7 +34,7 @@ urlpatterns = [
     path('services/', services_page_view, name="services"),
     path('services/', services_page_view, name="services"),
     path('portfolio/', portfolio_page_view, name="portfolio-page"),
-    path('portfolio/details/', portfolio_detail_page_view, name="portfolio-detail-page"),
+    path('portfolio/details/<str:pk>', portfolio_detail_page_view, name="portfolio-detail-page"),
 ]
 
 if settings.DEBUG:

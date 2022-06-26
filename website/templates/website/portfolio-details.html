@@ -1,11 +1,11 @@
-{% extends 'blank-base.html' %}
+{% extends 'base.html' %}
 {% load static %}
 
 {% block content %}
 
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
 
         <div class="row gy-4">
 
@@ -14,16 +14,13 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-1.jpg" alt="">
+                  <img src="{{figure.thumbnail.url}}" alt="">
                 </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-3.jpg" alt="">
-                </div>
+                {% for image in gallery %}
+                  <div class="swiper-slide">
+                    <img src="{{image.image_name.url}}" alt="">
+                  </div>
+                {% endfor %}
 
               </div>
               <div class="swiper-pagination"></div>
@@ -32,18 +29,29 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3>{{figure.name}}</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
+                <li><strong>Tags: </strong>
+                  {% for tag in figure.tags.all %}
+                      <a><span class="badge bg-info">{{tag}}</span> ,</a>
+                  {% endfor %}
+                </li>
+                <li><strong>Height: </strong>{{figure.height}}mm</li>
+                <li><strong>Resin printed?: </strong>
+                  {% if figure.is_resin %}
+                      Yes
+                  {% else %}
+                      No
+                  {% endif %}
+                </li>
+                <li><strong>Project date: </strong>{{figure.painted_date}}</li>
                 <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <h2>This is an example of portfolio detail</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                {{figure.description}}
               </p>
             </div>
           </div>
