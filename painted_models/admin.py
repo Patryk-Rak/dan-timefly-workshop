@@ -12,7 +12,7 @@ class FigureAdmin(admin.ModelAdmin):
 
 
 class FigureImagesAdmin(admin.ModelAdmin):
-    fields = ('figure_key', 'images')
+    fields = ('figure_key', 'image_name')
 
 
 class FigureTagsAdmin(admin.ModelAdmin):

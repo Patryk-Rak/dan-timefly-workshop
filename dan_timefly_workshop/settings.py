@@ -116,7 +116,7 @@ MEDIA_URL = '/media/'
 PROJECT_ROOT = os.path.join(os.path.abspath(__file__))
 #STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media_cdn')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 
 TEMP = os.path.join(BASE_DIR, 'media_cdn/temp')
 #BASE_DIR = "http://127.0.0.1:8000"

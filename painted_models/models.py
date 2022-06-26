@@ -7,7 +7,7 @@ def thumbnail_path_file_name(instance, filename):
 
 
 def gallery_path_file_name(instance, filename):
-    return '/'.join(filter(None, (instance.figure.name, filename)))
+    return '/'.join(filter(None, ('gallery', filename)))
 
 
 class Tag(models.Model):
@@ -25,12 +25,15 @@ class Figure(models.Model):
                                ]
                                )
     is_resin = models.BooleanField()
-    description = models.CharField(max_length=300)
+    description = models.TextField(max_length=3000)
     thumbnail = models.ImageField(null=True, blank=True, upload_to=thumbnail_path_file_name,
                                   height_field=None,
                                   width_field=None,
                                   max_length=100)
     tags = models.ManyToManyField(Tag, null=True)
+    painted_date = models.DateField(null=True, blank=True)
+    entry_created_at = models.DateTimeField(auto_now_add=True)
+    entry_updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.name
@@ -38,4 +41,4 @@ class Figure(models.Model):
 
 class FigureImages(models.Model):
     figure_key = models.ForeignKey(Figure, default=None, on_delete=models.CASCADE)
-    images = models.ImageField(upload_to="test_template/")
+    image_name = models.ImageField(upload_to=gallery_path_file_name)
