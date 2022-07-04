@@ -16,7 +16,7 @@ class FigureImagesAdmin(admin.ModelAdmin):
 
 
 class FigureTagsAdmin(admin.ModelAdmin):
-    fields = ('tag_name',)
+    fields = ('tag_name', 'featured')
 
 
 admin.site.register(Figure, FigureAdmin)
