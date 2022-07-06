@@ -1,4 +1,4 @@
-"""dan_timefly_workshop URL Configuration
+"""core URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
@@ -32,9 +32,8 @@ urlpatterns = [
     path('about/', about_page_view, name="about"),
     path('contact/', contact_page_view, name="contact-page"),
     path('services/', services_page_view, name="services"),
-    path('services/', services_page_view, name="services"),
     path('portfolio/', portfolio_page_view, name="portfolio-page"),
-    path('portfolio/details/<str:pk>', portfolio_detail_page_view, name="portfolio-detail-page"),
+    path('portfolio/details/<slug:slug>', portfolio_detail_page_view, name="portfolio-detail-page"),
 ]
 
 if settings.DEBUG:
