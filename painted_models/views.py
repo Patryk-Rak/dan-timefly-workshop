@@ -5,6 +5,7 @@ from django.views.generic import \
      ListView)
 
 
+#PORTFOLIO TAB VIEWS
 def portfolio_page_view(request, *args, **kwargs):
     figures = Figure.objects.all()
     tags = Tag.objects.all()
@@ -12,7 +13,7 @@ def portfolio_page_view(request, *args, **kwargs):
     return render(request, "website/portfolio.html", context)
 
 
-def portfolio_detail_page_view(request, pk, *args, **kwargs):
-    figure = Figure.objects.get(id=pk)
-    context = {'figure': figure, 'gallery': FigureImages.objects.filter(figure_key_id=pk)}
+def portfolio_detail_page_view(request, slug, *args, **kwargs):
+    figure = Figure.objects.get(slug=slug)
+    context = {'figure': figure, 'gallery': FigureImages.objects.filter(figure_key_id=figure.id)}
     return render(request, "website/portfolio-details.html", context)

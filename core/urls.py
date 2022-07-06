@@ -33,7 +33,7 @@ urlpatterns = [
     path('contact/', contact_page_view, name="contact-page"),
     path('services/', services_page_view, name="services"),
     path('portfolio/', portfolio_page_view, name="portfolio-page"),
-    path('portfolio/details/<str:pk>', portfolio_detail_page_view, name="portfolio-detail-page"),
+    path('portfolio/details/<slug:slug>', portfolio_detail_page_view, name="portfolio-detail-page"),
 ]
 
 if settings.DEBUG:

@@ -44,10 +44,10 @@
                   </p>
                   <div class="portfolio-links">
                     <a href="{{figure.thumbnail.url}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{figure.name}}"><i class="bx bx-search"></i></a>
-                    <a href="{% url 'portfolio-detail-page' figure.id %}" title="Portfolio Details"><i class="bx bx-notepad"></i></a>
+                    <a href="{% url 'portfolio-detail-page' figure.slug %}" title="Portfolio Details"><i class="bx bx-notepad"></i></a>
                   </div>
                   <div class="portfolio-button">
-                    <a type="button" class="btn btn-outline-info" href="{% url 'portfolio-detail-page' figure.id %}">Details</a>
+                    <a type="button" class="btn btn-outline-info" href="{% url 'portfolio-detail-page' figure.slug %}">Details</a>
                   </div>
                 </div>
               </div>
