@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4ae7a93c-9725-4cf0-9934-7a37d136c6d8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/painted_models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/painted_models/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/painted_models/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/painted_models/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/kelly/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/kelly/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/kelly/portfolio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/kelly/resume.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/kelly/services.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
