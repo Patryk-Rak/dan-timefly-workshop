@@ -1,6 +1,7 @@
 from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.utils.text import slugify
+from ckeditor.fields import RichTextField
 
 
 def thumbnail_path_file_name(instance, filename):
@@ -28,6 +29,7 @@ class Figure(models.Model):
                                )
     is_resin = models.BooleanField()
     description = models.TextField(max_length=3000)
+    webpage_body = RichTextField(null=True, blank=True)
     thumbnail = models.ImageField(null=True, blank=True, upload_to=thumbnail_path_file_name,
                                   height_field=None,
                                   width_field=None,

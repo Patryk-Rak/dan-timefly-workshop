@@ -24,7 +24,11 @@ from website.views import (
                             services_page_view,
                             about_page_view
                           )
-from painted_models.views import portfolio_page_view, portfolio_detail_page_view
+from painted_models.views import (
+                                    portfolio_page_view,
+                                    portfolio_detail_page_view,
+                                    portfolio_page_create_view
+                                 )
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -33,6 +37,7 @@ urlpatterns = [
     path('contact/', contact_page_view, name="contact-page"),
     path('services/', services_page_view, name="services"),
     path('portfolio/', portfolio_page_view, name="portfolio-page"),
+    path('portfolio/add', portfolio_page_create_view, name="portfolio-page-create"),
     path('portfolio/details/<slug:slug>', portfolio_detail_page_view, name="portfolio-detail-page"),
 ]
 

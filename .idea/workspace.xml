@@ -6,6 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="4ae7a93c-9725-4cf0-9934-7a37d136c6d8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/painted_models/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/painted_models/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blank-base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/blank-base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/snippets/main/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/snippets/main/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/snippets/main/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/snippets/main/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/snippets/main/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/snippets/main/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/portfolio/portfolio-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/portfolio/portfolio-list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +57,8 @@
       <recent name="C:\Users\Dan\Desktop\Python\dan-timefly-workshop\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Python\dan-timefly-workshop\dan-timefly-workshop\website\templates" />
+      <recent name="C:\Users\Administrator\Desktop\Python\dan-timefly-workshop\dan-timefly-workshop\website\templates\website\portfolio" />
       <recent name="C:\Users\Administrator\Desktop\Python\dan-timefly-workshop\dan-timefly-workshop\templates\kelly" />
       <recent name="C:\Users\Dan\Desktop\Python\dan-timefly-workshop\templates\kelly" />
       <recent name="C:\Users\Dan\Desktop\Python\dan-timefly-workshop\static\kelly" />
