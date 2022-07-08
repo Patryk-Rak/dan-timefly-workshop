@@ -14,7 +14,7 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="{{figure.thumbnail.url}}" alt="">
+                  <img src="{{printed_model.thumbnail.url}}" alt="">
                 </div>
                 {% for image in gallery %}
                   <div class="swiper-slide">
@@ -29,34 +29,45 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>{{figure.name}}</h3>
+              <h3>{{printed_model.name}}</h3>
               <ul>
                 <li><strong>Tags: </strong>
-                  {% for tag in figure.tags.all %}
+                  {% for tag in printed_model.tags.all %}
                       <a><span class="badge bg-info">{{tag}}</span> ,</a>
                   {% endfor %}
                 </li>
-                <li><strong>Height: </strong>{{figure.height}}mm</li>
+                <li><strong>Height: </strong>{{printed_model.height}}mm</li>
                 <li><strong>Resin printed?: </strong>
-                  {% if figure.is_resin %}
+                  {% if printed_model.is_resin %}
                       Yes
                   {% else %}
                       No
                   {% endif %}
                 </li>
-                <li><strong>Project date: </strong>{{figure.painted_date}}</li>
+                <li><strong>Project date: </strong>{{printed_model.painted_date}}</li>
                 <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                {% if user.is_authenticated %}
+                <li><a type="button" class="btn btn-outline-info" href="{% url 'portfolio-page-update' printed_model.slug %}">Edit printed model</a></li>
+                <li><a type="button" class="btn btn-outline-danger" href="{% url 'portfolio-page-delete' printed_model.slug %}">Delete printed model</a></li>
+                {% endif %}
               </ul>
             </div>
             <div class="portfolio-description">
               <h2>This is an example of portfolio detail</h2>
               <p>
-                {{figure.description}}
+                {{printed_model.description}}
               </p>
             </div>
           </div>
 
         </div>
+
+        <hr>
+        <div class="section-title">
+          <h2>Details</h2>
+        </div>
+
+        <div>{{printed_model.webpage_body|safe}}</div>
 
       </div>
     </section><!-- End Portfolio Details Section -->

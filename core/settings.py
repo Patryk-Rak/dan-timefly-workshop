@@ -18,7 +18,7 @@ ALLOWED_HOSTS = ['dan-timefly-workshop.herokuapp.com']
 
 INSTALLED_APPS = [
     #My apps
-    'painted_models',
+    'printed_models',
     'paints_and_tools',
     'website',
 
@@ -32,7 +32,16 @@ INSTALLED_APPS = [
 
     #3rd party apps
     'ckeditor',
+    'ckeditor_uploader',
+    'crispy_forms',
+    'crispy_bootstrap5',
 ]
+
+CKEDITOR_UPLOAD_PATH = 'uploads/'
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap5'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
 MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
@@ -117,7 +126,6 @@ STATICFILES_DIRS = [
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 PROJECT_ROOT = os.path.join(os.path.abspath(__file__))
-#STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 
@@ -132,5 +140,13 @@ django_heroku.settings(locals())
 
 prod_db = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(prod_db)
+
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',
+        'height': 300,
+        'width': '100%',
+    },
+}
 
 

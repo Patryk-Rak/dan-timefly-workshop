@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from painted_models.models import Figure
+from printed_models.models import PrintedModel
 
 def homepage_view(request, *args, **kwargs):
     context = {}
@@ -20,6 +20,6 @@ def services_page_view(request, *args, **kwargs):
 
 
 def about_page_view(request, *args, **kwargs):
-    figures_amount = Figure.objects.all().count()
+    figures_amount = PrintedModel.objects.all().count()
     context = {'figures_amount': figures_amount}
     return render(request, "website/about.html", context)

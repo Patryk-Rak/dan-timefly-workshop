@@ -27,6 +27,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 #main {
   margin-top: 50px;
 }
@@ -852,7 +859,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(34, 34, 34, 0.6);
+  background: rgba(34, 34, 34, 0.1);
 }
 .portfolio .portfolio-wrap::before {
   content: "";
@@ -869,6 +876,7 @@ section {
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
 }
+
 .portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;
   position: absolute;
@@ -883,6 +891,24 @@ section {
   justify-content: flex-end;
   align-items: flex-start;
   padding: 20px;
+}
+.portfolio .portfolio-wrap .portfolio-button {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 100px;
+}
+.portfolio .portfolio-wrap:hover .portfolio-button {
+  opacity: 1;
 }
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;

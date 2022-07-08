@@ -8,6 +8,7 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
+          <a type="button" class="btn btn-outline-info" href="{% url 'portfolio-page-create'%}">Add new printed model</a>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
@@ -28,26 +29,26 @@
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          {% for figure in figures %}
+          {% for printed_model in printed_models %}
             <div class="col-lg-4 col-md-6 portfolio-item
                         {% for tag in figure.tags.all %}
                         {{tag}}
                         {% endfor %}">
               <div class="portfolio-wrap">
-                <img src="{{figure.thumbnail.url}}" class="img-fluid" alt="">
+                <img src="{{printed_model.thumbnail.url}}" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>{{figure.name}}</h4>
+                  <h4>{{printed_model.name}}</h4>
                   <p>
-                    {% for tag in figure.tags.all %}
+                    {% for tag in printed_model.tags.all %}
                       {{tag}} ,
                     {% endfor %}
                   </p>
                   <div class="portfolio-links">
-                    <a href="{{figure.thumbnail.url}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{figure.name}}"><i class="bx bx-search"></i></a>
-                    <a href="{% url 'portfolio-detail-page' figure.slug %}" title="Portfolio Details"><i class="bx bx-notepad"></i></a>
+                    <a href="{{printed_model.thumbnail.url}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{figure.name}}"><i class="bx bx-search"></i></a>
+                    <a href="{% url 'portfolio-detail-page' printed_model.slug %}" title="Portfolio Details"><i class="bx bx-notepad"></i></a>
                   </div>
                   <div class="portfolio-button">
-                    <a type="button" class="btn btn-outline-info" href="{% url 'portfolio-detail-page' figure.slug %}">Details</a>
+                    <a type="button" class="btn btn-outline-info" href="{% url 'portfolio-detail-page' printed_model.slug %}">Details</a>
                   </div>
                 </div>
               </div>

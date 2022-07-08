@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+ <!-- ======= Portfolio Delete Form Section ======= -->
+    <section id="portfolio-delete" class="portfolio-delete">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+              <h2>Portfolio Delete Form</h2>
+              <p></p>
+          </div>
+
+            <form action="" method="POST" enctype="multipart/form-data">
+
+                <p>Are you sure you want to delete {{item.name}}?</p>
+                {% csrf_token %}
+
+                {{ form.as_p }}
+                <input class="btn btn-outline-danger" type="submit" value="Delete printed model">
+
+            </form>
+
+
+
+        </div>
+    </section><!-- End Portfolio Section -->
+{% endblock content %}

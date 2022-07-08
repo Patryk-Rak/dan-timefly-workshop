@@ -8,16 +8,276 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/painted_models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/painted_models/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/painted_models/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/painted_models/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/website_images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/website_images/hero_page_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/website_images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/website_images/myself.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/Dragon Maid/mk1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/Miss Kobayashi Dragon Maid/mk1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/Miss Kobayashi's Dragon Maid -/mk1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/Warhammer 40k Ultramarine/w-3.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/gallery/mk2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/gallery/mk2_cKdeFRW.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/gallery/mk2_jLqkhhq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/gallery/mk3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/gallery/mk3_0INpApt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/gallery/w-3.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mediafiles/gallery/w-3.3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/printed_models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/printed_models/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/printed_models/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/migrations/0002_figure_slug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/migrations/0003_figure_webpage_body.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/printed_models/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/printed_models/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/templates/painted_models/add_model.html" beforeDir="false" afterPath="$PROJECT_DIR$/printed_models/templates/painted_models/add_model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/printed_models/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/painted_models/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/printed_models/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paints_and_tools/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blank-base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/blank-base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/snippets/main/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/snippets/main/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/snippets/main/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/snippets/main/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/snippets/main/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/snippets/main/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/portfolio/portfolio-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/portfolio/portfolio-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/css/kelly_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/kelly/css/kelly_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kelly/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/css/kelly_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/forms/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/forms/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/hero-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-1.958ee1705356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-2.750f45a8b454.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-3.7fb403048b13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-4.5a496f3264e1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-5.170a44fb7214.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-6.8724f8ad0dfb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-7.0301d89077e5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-8.880dd428c02d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-9.12308c9b926a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-details-1.68f22bbbf2e8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-details-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-details-2.1ff8dc618f39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-details-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-details-3.1db30585d3e5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/portfolio/portfolio-details-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/testimonials/testimonials-1.2eb96321ab48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/testimonials/testimonials-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/testimonials/testimonials-2.b6d170186833.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/testimonials/testimonials-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/testimonials/testimonials-3.3d677828b23c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/testimonials/testimonials-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/testimonials/testimonials-4.08d8679b1e42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/testimonials/testimonials-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/testimonials/testimonials-5.72fb04435870.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/img/testimonials/testimonials-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/js/kelly_main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/aos/aos.847da8fca806.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/aos/aos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/aos/aos.d3718e34eeb0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/aos/aos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap-icons/bootstrap-icons.a48dad8e75f7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap-icons/bootstrap-icons.ba40da3833e0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap-icons/bootstrap-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap-icons/bootstrap-icons.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap-icons/fonts/bootstrap-icons.bad01a8965b8.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap-icons/fonts/bootstrap-icons.be57951d47bc.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap-icons/fonts/bootstrap-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap-icons/index.cb06fb55f3e6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap-icons/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.8cb8cd8bc1c1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.css.517a6cbbc165.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.min.css.86055553743f.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.min.fc15d062c35e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.rtl.css.af51a86b45f8.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.rtl.d73f1c67d5c1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.rtl.min.894bc5f43972.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.a0902a33fd8f.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.7fd3f75a990a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.css.94ea03549b8e.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.min.1e3b7da4f22d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.min.css.289cf9324327.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.rtl.b4d2ab0d31d8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.rtl.css.87b4fd900ec0.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.rtl.min.0c8d1d901b03.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.94bfc830d50f.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.c39f03ef80ab.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.css.0e6379de3b9e.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.min.3492dfd6b7f1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.min.css.5e0f617bbae5.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.rtl.959747add181.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.rtl.css.179a46c78606.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.rtl.min.05cc6f91bce1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.6195fe9c4c03.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.5aa7bfe43f3e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.css.e47eba3f3249.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.min.css.95fca4cc7b7d.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.min.f7d74d604242.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.rtl.css.e8b284d536f5.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.rtl.dfd91b281a81.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.rtl.min.css.98801710b7ac.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/css/bootstrap.rtl.min.fe1ab6343e68.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.8577db665090.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.bundle.d570596099f2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.bundle.js.a44c4996b7a8.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.bundle.min.f7b87dea363a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.bundle.min.js.fd5e8b7e914a.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.esm.a7f81636bb60.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.esm.js.8f84b39352a3.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.esm.min.aab8ba9513d4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.esm.min.js.bb34cf006a8a.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.js.3fcfbb1adc12.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.min.8d6807a7e938.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.min.js.b3ee031bc305.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/css/animations.2c0319e25c5c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/css/animations.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/css/boxicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/css/boxicons.d1f7a4b03629.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/css/boxicons.min.26fd3bd10787.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/css/boxicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/css/transformations.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/css/transformations.d5afab8d6fa0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/fonts/boxicons.1d0805b54db2.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/fonts/boxicons.3d8c289e0def.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/fonts/boxicons.82c9de79b067.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/fonts/boxicons.d9177fbc6284.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/fonts/boxicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/fonts/boxicons.ffe87d4821ad.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/fonts/boxicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/fonts/boxicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/fonts/boxicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/boxicons/fonts/boxicons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/glightbox/css/glightbox.11a3ff75850a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/glightbox/css/glightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/glightbox/css/glightbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/glightbox/css/glightbox.min.d5e0b3e55dd9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/glightbox/js/glightbox.b9593060fec3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/glightbox/js/glightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/glightbox/js/glightbox.min.2c8b54832f23.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/glightbox/js/glightbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/isotope-layout/isotope.pkgd.31ee5319f1ba.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/isotope-layout/isotope.pkgd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/isotope-layout/isotope.pkgd.min.5fb7c19c9c51.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/isotope-layout/isotope.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/php-email-form/validate.ed8b1bb7bc73.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/php-email-form/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/purecounter/purecounter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/swiper/swiper-bundle.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/swiper/swiper-bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/kelly/vendor/waypoints/noframework.waypoints.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website_images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website_images/hero_page_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website_images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/website_images/myself.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/blank-base.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/blank-base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/snippets/main/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/snippets/main/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/portfolio/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/portfolio/portfolio-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/portfolio/portfolio-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/portfolio/portfolio-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/portfolio/portfolio-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/portfolio/portfolio-create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

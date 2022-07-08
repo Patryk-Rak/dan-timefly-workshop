@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from django.conf.urls.static import static
 from django.conf import settings
 
@@ -24,21 +24,29 @@ from website.views import (
                             services_page_view,
                             about_page_view
                           )
-from painted_models.views import (
+from printed_models.views import (
                                     portfolio_page_view,
                                     portfolio_detail_page_view,
-                                    portfolio_page_create_view
+                                    portfolio_page_create_view,
+                                    portfolio_page_update_view,
+                                    portfolio_page_delete_view
                                  )
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls, name="admin"),
+    path('ckeditor/', include('ckeditor_uploader.urls')),
     path('', homepage_view, name="homepage"),
     path('about/', about_page_view, name="about"),
     path('contact/', contact_page_view, name="contact-page"),
     path('services/', services_page_view, name="services"),
     path('portfolio/', portfolio_page_view, name="portfolio-page"),
-    path('portfolio/add', portfolio_page_create_view, name="portfolio-page-create"),
     path('portfolio/details/<slug:slug>', portfolio_detail_page_view, name="portfolio-detail-page"),
+
+    #CRUD
+    path('portfolio/post', portfolio_page_create_view, name="portfolio-page-create"),
+    path('portfolio/update-<slug:slug>', portfolio_page_update_view, name="portfolio-page-update"),
+    path('portfolio/delete-<slug:slug>', portfolio_page_delete_view, name="portfolio-page-delete"),
+
 ]
 
 if settings.DEBUG:
