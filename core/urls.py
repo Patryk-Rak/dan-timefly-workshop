@@ -37,9 +37,9 @@ urlpatterns = [
     path('ckeditor/', include('ckeditor_uploader.urls')),
     path('', homepage_view, name="homepage"),
     path('about/', about_page_view, name="about"),
-    path('contact/', contact_page_view, name="contact-page"),
+    path('contact/', contact_page_view, name="contact"),
     path('services/', services_page_view, name="services"),
-    path('portfolio/', portfolio_page_view, name="portfolio-page"),
+    path('portfolio/', portfolio_page_view, name="portfolio"),
     path('portfolio/details/<slug:slug>', portfolio_detail_page_view, name="portfolio-detail-page"),
 
     #CRUD

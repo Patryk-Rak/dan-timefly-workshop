@@ -37,18 +37,20 @@
                   {% endfor %}
                 </li>
                 <li><strong>Height: </strong>{{printed_model.height}}mm</li>
-                <li><strong>Resin printed?: </strong>
-                  {% if printed_model.is_resin %}
-                      Yes
+                <li><strong>Materials: </strong>
+                  {% if materials %}
+                    {% for material in materials %}
+                      <a>{{material}}, </a>
+                    {% endfor %}
                   {% else %}
-                      No
+                      Unknown
                   {% endif %}
                 </li>
                 <li><strong>Project date: </strong>{{printed_model.painted_date}}</li>
                 <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
                 {% if user.is_authenticated %}
-                <li><a type="button" class="btn btn-outline-info" href="{% url 'portfolio-page-update' printed_model.slug %}">Edit printed model</a></li>
-                <li><a type="button" class="btn btn-outline-danger" href="{% url 'portfolio-page-delete' printed_model.slug %}">Delete printed model</a></li>
+                <li><a type="button" class="button-dan" href="{% url 'portfolio-page-update' printed_model.slug %}">Edit printed model</a></li>
+                <li><a type="button" class="button-dan-danger" href="{% url 'portfolio-page-delete' printed_model.slug %}">Delete printed model</a></li>
                 {% endif %}
               </ul>
             </div>

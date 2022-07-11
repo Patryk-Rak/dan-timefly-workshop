@@ -1,5 +1,10 @@
 from django.contrib import admin
-from .models import PrintedModel, PrintedModelImage, Tag
+from .models import Tag, PrintedModel, PrintedModelImage, PrintedModelMaterial
+
+
+class PrintedModelMaterialInLine(admin.TabularInline):
+    model = PrintedModelMaterial
+    extra = 1
 
 
 class FigureImagesInline(admin.TabularInline):
@@ -8,7 +13,11 @@ class FigureImagesInline(admin.TabularInline):
 
 
 class PrintedModelAdmin(admin.ModelAdmin):
-    inlines = [ FigureImagesInline, ]
+    inlines = [ PrintedModelMaterialInLine, FigureImagesInline, ]
+
+
+class PrintedModelMaterialAdmin(admin.ModelAdmin):
+    fields = ('figure_key', 'image_name')
 
 
 class PrintedModelImageAdmin(admin.ModelAdmin):
@@ -20,5 +29,6 @@ class FigureTagsAdmin(admin.ModelAdmin):
 
 
 admin.site.register(PrintedModel, PrintedModelAdmin)
+admin.site.register(PrintedModelMaterial, PrintedModelMaterialAdmin)
 admin.site.register(PrintedModelImage, PrintedModelImageAdmin)
 admin.site.register(Tag, FigureTagsAdmin)

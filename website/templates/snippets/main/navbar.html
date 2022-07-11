@@ -9,18 +9,18 @@
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
       <h1 class="logo me-auto me-lg-0">
-        <a href="{% url 'homepage' %}"><img src="{% static 'website_images/logo.png' %}">DTW</a>
+        <a href="{% url 'homepage' %}"><img src="{% static 'static_website_images/logo.png' %}">DTW</a>
       </h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="{% if request.path == homepage %} active {% endif %}" href="{% url 'homepage' %}">Home</a></li>
-          <li><a class="{% if request.path == about %} active {% endif %}" href="{% url 'about' %}">About</a></li>
-          <li><a class="{% if request.path == services %} active {% endif %}" href="{% url 'services' %}">Services</a></li>
-          <li><a class="{% if request.path == portfoliopage %} active {% endif %}" href="{% url 'portfolio-page' %}">Portfolio</a></li>
-          <li><a class="{% if request.path == contactpage %} active {% endif %}" href="{% url 'contact-page' %}">Contact</a></li>
+            <li><a class="{% if request.path == homepage %} active {% endif %}" href="{% url 'homepage' %}">Home</a></li>
+            <li><a class="{% if request.path == about %} active {% endif %}" href="{% url 'about' %}">About</a></li>
+            <li><a class="{% if request.path == portfolio %} active {% endif %}" href="{% url 'portfolio' %}">Portfolio</a></li>
+            <li><a class="{% if request.path == services %} active {% endif %}" href="{% url 'services' %}">Services</a></li>
+            <li><a class="{% if request.path == contact %} active {% endif %}" href="{% url 'contact' %}">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

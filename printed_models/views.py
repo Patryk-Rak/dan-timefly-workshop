@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import PrintedModel, PrintedModelImage, Tag
+from .models import PrintedModel, PrintedModelMaterial, PrintedModelImage, Tag
 from .forms import PrintedModelForm
 from django.contrib.auth.decorators import login_required
 
@@ -14,7 +14,9 @@ def portfolio_page_view(request, *args, **kwargs):
 
 def portfolio_detail_page_view(request, slug, *args, **kwargs):
     printed_model = PrintedModel.objects.get(slug=slug)
-    context = {'printed_model': printed_model, 'gallery': PrintedModelImage.objects.filter(figure_key_id=printed_model.id)}
+    context = {'printed_model': printed_model,
+               'gallery': PrintedModelImage.objects.filter(figure_key_id=printed_model.id),
+               'materials': PrintedModelMaterial.objects.filter(figure_key_id=printed_model.id)}
     return render(request, "website/portfolio/portfolio-details.html", context)
 
 

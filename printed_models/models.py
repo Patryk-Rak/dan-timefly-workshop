@@ -27,7 +27,6 @@ class PrintedModel(models.Model):
                                    MinValueValidator(1)
                                ]
                                )
-    is_resin = models.BooleanField()
     description = models.TextField(max_length=3000)
     webpage_body = RichTextUploadingField(null=True, blank=True)
     thumbnail = models.ImageField(null=True, blank=True, upload_to=thumbnail_path_file_name,
@@ -63,3 +62,11 @@ class PrintedModel(models.Model):
 class PrintedModelImage(models.Model):
     figure_key = models.ForeignKey(PrintedModel, default=None, on_delete=models.CASCADE)
     image_name = models.ImageField(upload_to=gallery_path_file_name)
+
+
+class PrintedModelMaterial(models.Model):
+    figure_key = models.ForeignKey(PrintedModel, default=None, on_delete=models.CASCADE)
+    material = models.CharField(max_length=30)
+
+    def __str__(self):
+        return self.material
