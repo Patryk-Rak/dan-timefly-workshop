@@ -10,9 +10,8 @@
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5rem;
-  padding: .375rem .75rem;
+  padding: .375rem 0.75rem;
   text-align: center;
-
   transition-duration: 0.5s;
   transition-property: background-color,border-color,color,fill,stroke;
   transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
@@ -21,21 +20,16 @@
   touch-action: manipulation;
   width: auto;
 }
-
 .button-dan:hover {
   background-color: #3dc8b7;
   border-color: transparent;
   color: white;
 }
-
 .button-dan:focus {
   box-shadow: none;
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
-
-
-
 
 .button-dan-danger {
   border-color: #dc3545;
@@ -60,13 +54,11 @@
   touch-action: manipulation;
   width: auto;
 }
-
 .button-dan-danger:hover {
   background-color: #dc3545;
   border-color: transparent;
   color: white;
 }
-
 .button-dan-danger:focus {
   box-shadow: none;
   outline: 2px solid transparent;
@@ -77,9 +69,9 @@
 
 @media (min-width: 768px) {
   .button-dan {
-    padding: .375rem .75rem;
+    padding: .375rem 1.75rem;
   }
-    .button-dan-danger {
+  .button-dan-danger {
     padding: .375rem .75rem;
   }
 }

@@ -3,6 +3,10 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 from django.utils.text import slugify
 from ckeditor_uploader.fields import RichTextUploadingField
 
+from django.dispatch import receiver
+from django.db.models.signals import post_delete
+
+
 
 def thumbnail_path_file_name(instance, filename):
     return '/'.join(filter(None, (instance.name, filename)))
@@ -57,6 +61,14 @@ class PrintedModel(models.Model):
 
         super().save(*args, **kwargs)
 
+
+@receiver(post_delete, sender=PrintedModel)
+def post_save_image(sender, instance, *args, **kwargs):
+    """ Clean Old Image file """
+    try:
+        instance.img.delete(save=False)
+    except:
+        pass
 
 
 class PrintedModelImage(models.Model):

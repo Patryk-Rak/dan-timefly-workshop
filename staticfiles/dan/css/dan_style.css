@@ -1,20 +1,18 @@
-.button-40 {
-  background-color: #111827;
-  border: 1px solid transparent;
-  border-radius: .75rem;
+.button-dan {
+  border-color: #34b7a7;
+  border: 1px solid;
+  border-radius: 15px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #3dc8b7;
   cursor: pointer;
   flex: 0 0 auto;
-  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1.5rem;
-  padding: .75rem 1.2rem;
+  padding: .375rem 0.75rem;
   text-align: center;
-  text-decoration: none #6B7280 solid;
-  text-decoration-thickness: auto;
-  transition-duration: .2s;
+  transition-duration: 0.5s;
   transition-property: background-color,border-color,color,fill,stroke;
   transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
   user-select: none;
@@ -22,19 +20,58 @@
   touch-action: manipulation;
   width: auto;
 }
-
-.button-40:hover {
-  background-color: #374151;
+.button-dan:hover {
+  background-color: #3dc8b7;
+  border-color: transparent;
+  color: white;
 }
-
-.button-40:focus {
+.button-dan:focus {
   box-shadow: none;
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
 
+.button-dan-danger {
+  border-color: #dc3545;
+  border: 1px solid;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #dc3545;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .375rem .75rem;
+  text-align: center;
+
+  transition-duration: 0.5s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+.button-dan-danger:hover {
+  background-color: #dc3545;
+  border-color: transparent;
+  color: white;
+}
+.button-dan-danger:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+
+
 @media (min-width: 768px) {
-  .button-40 {
-    padding: .75rem 1.5rem;
+  .button-dan {
+    padding: .375rem 1.75rem;
+  }
+  .button-dan-danger {
+    padding: .375rem .75rem;
   }
 }

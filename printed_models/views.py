@@ -30,7 +30,7 @@ def portfolio_page_create_view(request, *args, **kwargs):
         printed_model_form = PrintedModelForm(request.POST, request.FILES)
         if printed_model_form.is_valid():
             printed_model_form.save()
-        return redirect('portfolio-page')
+        return redirect('portfolio')
 
     context = {'printed_model_form': printed_model_form}
     return render(request, "website/portfolio/portfolio-create.html", context)
@@ -39,15 +39,15 @@ def portfolio_page_create_view(request, *args, **kwargs):
 @login_required(login_url='/admin/')
 def portfolio_page_update_view(request, slug, *args, **kwargs):
     printed_models = PrintedModel.objects.get(slug=slug)
-    form = PrintedModelForm(instance=printed_models)
+    printed_model_form = PrintedModelForm(instance=printed_models)
 
     if request.method == 'POST':
-        form = PrintedModelForm(request.POST, request.FILES, instance=printed_models)
-        if form.is_valid():
-            form.save()
-        return redirect('portfolio-page')
+        printed_model_form = PrintedModelForm(request.POST, request.FILES, instance=printed_models)
+        if printed_model_form.is_valid():
+            printed_model_form.save()
+        return redirect('portfolio')
 
-    context = {'form': form}
+    context = {'printed_model_form': printed_model_form}
     return render(request, "website/portfolio/portfolio-create.html", context)
 
 
