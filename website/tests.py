@@ -1,3 +1,2 @@
-from django.test import TestCase
+from django.test import TestCase, override_settings
 
-# Create your tests here.
