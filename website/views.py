@@ -1,5 +1,7 @@
 from django.shortcuts import render
+
 from printed_models.models import PrintedModel
+
 
 def homepage_view(request, *args, **kwargs):
     context = {}
@@ -23,3 +25,7 @@ def about_page_view(request, *args, **kwargs):
     figures_amount = PrintedModel.objects.all().count()
     context = {'figures_amount': figures_amount}
     return render(request, "website/about.html", context)
+
+
+def handle_not_found(request, exception):
+    return render(request, "website/404.html")
