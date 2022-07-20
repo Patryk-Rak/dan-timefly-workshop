@@ -1,2 +1,2 @@
-web: gunicorn dan_timefly_workshop.wsgi
+web: gunicorn core.wsgi
 release: python manage.py migrate
