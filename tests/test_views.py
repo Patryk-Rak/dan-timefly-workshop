@@ -1,7 +1,6 @@
 from django.test import TestCase, Client, override_settings
 from django.urls import reverse
 import tempfile
-import json
 
 from printed_models.models import PrintedModel
 
@@ -14,15 +13,14 @@ class TestViews(TestCase):
         self.list_url = reverse('portfolio')
         self.details_url = reverse('portfolio-detail-page', args=['printedmodel1'])
         self.portfolio1 = PrintedModel.objects.create(
-            name = 'printedmodel1',
-            height = 75,
-            description = 'lorem ipsum',
-            thumbnail = tempfile.NamedTemporaryFile(suffix=".jpg").name
+            name='printedmodel1',
+            height=75,
+            description='lorem ipsum',
+            thumbnail=tempfile.NamedTemporaryFile(suffix=".jpg").name
         )
 
     def test_portfolio_list_GET(self):
         client = Client()
-
         response = self.client.get(self.list_url)
 
         self.assertEquals(response.status_code, 200)

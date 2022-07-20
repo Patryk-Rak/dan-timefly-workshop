@@ -20,7 +20,8 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('material', models.CharField(max_length=30)),
-                ('figure_key', models.ForeignKey(default=None, on_delete=django.db.models.deletion.CASCADE, to='printed_models.printedmodel')),
+                ('figure_key', models.ForeignKey(default=None, on_delete=django.db.models.deletion.CASCADE,
+                                                 to='printed_models.printedmodel')),
             ],
         ),
     ]

@@ -42,7 +42,7 @@ urlpatterns = [
     path('portfolio/', portfolio_page_view, name="portfolio"),
     path('portfolio/details/<slug:slug>', portfolio_detail_page_view, name="portfolio-detail-page"),
 
-    #CRUD
+    # CRUD
     path('portfolio/post', portfolio_page_create_view, name="portfolio-page-create"),
     path('portfolio/update-<slug:slug>', portfolio_page_update_view, name="portfolio-page-update"),
     path('portfolio/delete-<slug:slug>', portfolio_page_delete_view, name="portfolio-page-delete"),
@@ -54,4 +54,3 @@ handler404 = "website.views.handle_not_found"
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-

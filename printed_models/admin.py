@@ -13,7 +13,7 @@ class FigureImagesInline(admin.TabularInline):
 
 
 class PrintedModelAdmin(admin.ModelAdmin):
-    inlines = [ PrintedModelMaterialInLine, FigureImagesInline, ]
+    inlines = [PrintedModelMaterialInLine, FigureImagesInline, ]
 
 
 class PrintedModelMaterialAdmin(admin.ModelAdmin):

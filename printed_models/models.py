@@ -48,7 +48,7 @@ class PrintedModel(models.Model):
 
     def save(self, *args, **kwargs):
 
-        if self.slug == None:
+        if self.slug is None:
             slug = slugify(self.name)
             has_slug = PrintedModel.objects.filter(slug=slug).exists()
             count = 1

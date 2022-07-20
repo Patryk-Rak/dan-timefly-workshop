@@ -11,7 +11,7 @@ class PrintedModelForm(ModelForm):
         fields = '__all__'
 
         widgets = {
-            'tags':forms.CheckboxSelectMultiple(),
+            'tags': forms.CheckboxSelectMultiple(),
         }
 
 
@@ -20,4 +20,3 @@ class PrintedModelImageForm(ModelForm):
     class Meta:
         model = PrintedModelImage
         fields = '__all__'
-

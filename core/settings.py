@@ -4,7 +4,6 @@ from decouple import config
 import dj_database_url
 
 
-#BASE_DIR = Path(__file__).resolve().parent.parent
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -17,12 +16,12 @@ ALLOWED_HOSTS = ['dan-timefly-workshop.herokuapp.com']
 
 
 INSTALLED_APPS = [
-    #My apps
+    # My apps
     'printed_models',
     'paints_and_tools',
     'website',
 
-    #Django apps
+    # Django apps
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -30,7 +29,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    #3rd party apps
+    # 3rd party apps
     'ckeditor',
     'ckeditor_uploader',
     'crispy_forms',
@@ -120,7 +119,7 @@ PROJECT_ROOT = os.path.join(os.path.abspath(__file__))
 TEMP = os.path.join(BASE_DIR, 'mediafiles/temp')
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-#STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+# STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
@@ -136,5 +135,3 @@ CKEDITOR_CONFIGS = {
         'width': '100%',
     },
 }
-
-

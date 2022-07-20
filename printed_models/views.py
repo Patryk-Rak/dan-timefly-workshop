@@ -4,7 +4,7 @@ from .forms import PrintedModelForm
 from django.contrib.auth.decorators import login_required
 
 
-#PORTFOLIO TAB VIEWS
+# PORTFOLIO TAB VIEWS
 def portfolio_page_view(request, *args, **kwargs):
     printed_models = PrintedModel.objects.all()
     tags = Tag.objects.all()
@@ -20,7 +20,7 @@ def portfolio_detail_page_view(request, slug, *args, **kwargs):
     return render(request, "website/portfolio/portfolio-details.html", context)
 
 
-#PORTFOLIO CRUD
+# PORTFOLIO CRUD
 
 @login_required(login_url='/admin/')
 def portfolio_page_create_view(request, *args, **kwargs):

@@ -1,8 +1,9 @@
 from django.test import TestCase, override_settings
 
 from django.urls import reverse, resolve
-from printed_models.views import portfolio_page_view, portfolio_detail_page_view
+from printed_models.views import portfolio_page_view
 from website.views import homepage_view, contact_page_view, services_page_view, about_page_view
+
 
 @override_settings(STATICFILES_STORAGE='django.contrib.staticfiles.storage.StaticFilesStorage')
 class TestURLs(TestCase):
