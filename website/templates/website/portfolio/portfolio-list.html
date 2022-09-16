@@ -30,10 +30,7 @@
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           {% for printed_model in printed_models %}
-            <div class="col-lg-4 col-md-6 portfolio-item
-                        {% for tag in figure.tags.all %}
-                        {{tag}}
-                        {% endfor %}">
+            <div class="col-lg-4 col-md-6 portfolio-item {% for tag in printed_model.tags.all %}{{tag}} {% endfor %}">
               <div class="portfolio-wrap">
                 <img src="{{printed_model.thumbnail.url}}" class="img-fluid" alt="">
                 <div class="portfolio-info">

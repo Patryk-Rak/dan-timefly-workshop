@@ -13,7 +13,7 @@ def thumbnail_path_file_name(instance, filename):
 
 
 def gallery_path_file_name(instance, filename):
-    return '/'.join(filter(None, ('gallery', filename)))
+    return '/'.join(filter(None, (instance.figure_key.name, filename)))
 
 
 class Tag(models.Model):
