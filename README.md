@@ -1,6 +1,6 @@
 
 # Dan Timefly Workshop
-#### **CURRENT STATUS - WORK IN PROGRESS**
+#### **CURRENT STATUS - WORK HALTED**
 
 This is my first attempt at creating a website from scratch to production stage,
 hosting it using Heroku, based on my previous knowledge with many small projects
